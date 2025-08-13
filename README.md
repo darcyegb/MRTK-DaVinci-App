@@ -1,12 +1,37 @@
-# Mixed Reality Toolkit for Unity
+# Da Vinci Eye - Mixed Reality Art Creation Application
 
 ![Mixed Reality Toolkit](./Images/MRTK_Unity_header.png)
 
 ![MRTK3 Banner](./Images/MRTK3_banner.png)
 
-**MRTK3** is the third generation of the Mixed Reality Toolkit for Unity. It's an open source project designed to accelerate cross-platform mixed reality development in Unity. MRTK3 is built on top of [Unity's XR Interaction Toolkit (XRI)](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.1/manual/index.html) and OpenXR. This new generation of MRTK is intended to be faster, cleaner, and more modular, with an easier cross-platform development workflow enabled by OpenXR and the Unity Input System.
+**Da Vinci Eye** is a HoloLens 2 mixed reality application for artists, built on top of the **Mixed Reality Toolkit (MRTK3)**. This application assists artists in creating fine art by providing digital overlay capabilities, allowing users to define physical canvas spaces, overlay reference images with adjustable opacity, and apply various visual filters to enhance the artistic creation process.
 
-## Key improvements
+This repository contains the complete Da Vinci Eye application built using **MRTK3**, which is the third generation of the Mixed Reality Toolkit for Unity. MRTK3 is built on top of [Unity's XR Interaction Toolkit (XRI)](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.1/manual/index.html) and OpenXR, providing a faster, cleaner, and more modular foundation for cross-platform mixed reality development.
+
+## Da Vinci Eye Application Features
+
+### Core Systems
+- **Canvas Management**: Define and track physical canvas boundaries using hand gestures with spatial anchor persistence
+- **Image Overlay**: Load reference images with real-time opacity adjustment and image processing capabilities  
+- **Filter Processing**: Apply visual filters including grayscale, edge detection, color range filtering, and color reduction
+- **Color Analysis**: Pick colors from reference images and capture physical paint colors using HoloLens cameras for matching
+- **Input Management**: MRTK-powered hand gesture recognition with near/far interaction modes and voice commands
+
+### Artist Workflow
+1. **Canvas Definition**: Use hand gestures to define your physical canvas boundaries
+2. **Image Loading**: Import reference images and adjust opacity for overlay on canvas
+3. **Filter Application**: Apply real-time visual filters to enhance reference images
+4. **Color Matching**: Pick colors from references and capture paint colors for accurate matching
+5. **Session Persistence**: Save canvas settings and color history across sessions
+
+### Getting Started with Da Vinci Eye
+- Open the main scene: `Assets/DaVinciEye/Scenes/DaVinciEyeMain.unity`
+- See detailed documentation: `Assets/DaVinciEye/README.md`
+- Build for HoloLens 2 with ARM64 architecture
+
+---
+
+## MRTK3 Foundation - Key improvements
 
 ### Architecture
 
