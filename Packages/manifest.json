@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "com.unity.xr.interaction.toolkit": "2.3.0",
+    "com.unity.xr.management": "4.2.1",
+    "com.unity.xr.arfoundation": "5.0.5",
+    "com.unity.inputsystem": "1.6.1",
+    "com.unity.render-pipelines.universal": "14.0.8",
+    "com.unity.textmeshpro": "3.0.6",
+    "com.microsoft.mrtk.graphicstools.unity": "0.5.12",
+    "com.unity.xr.windowsmr": "7.8.1",
+    "com.unity.xr.openxr": "1.7.0",
+    "com.unity.test-framework": "1.1.33",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Microsoft Mixed Reality",
+      "url": "https://pkgs.dev.azure.com/aipmr/MixedReality-Unity-Packages/_packaging/Unity-packages/npm/registry/",
+      "scopes": [
+        "com.microsoft.mrtk",
+        "com.microsoft.mixedreality"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "DaVinciEye.ColorAnalysis",
+    "rootNamespace": "DaVinciEye.ColorAnalysis",
+    "references": [
+        "Unity.XR.ARFoundation",
+        "Unity.XR.Management",
+        "MRTK.Core",
+        "MRTK.Input"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

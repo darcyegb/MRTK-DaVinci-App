@@ -1,0 +1,21 @@
+{
+    "name": "DaVinciEye.Core",
+    "rootNamespace": "DaVinciEye.Core",
+    "references": [
+        "DaVinciEye.Canvas",
+        "DaVinciEye.ImageOverlay",
+        "DaVinciEye.Filters",
+        "DaVinciEye.ColorAnalysis",
+        "DaVinciEye.Input",
+        "MRTK.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

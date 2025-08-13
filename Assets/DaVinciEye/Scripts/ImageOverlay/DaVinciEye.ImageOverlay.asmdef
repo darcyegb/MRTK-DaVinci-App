@@ -1,0 +1,20 @@
+{
+    "name": "DaVinciEye.ImageOverlay",
+    "rootNamespace": "DaVinciEye.ImageOverlay",
+    "references": [
+        "Unity.RenderPipelines.Universal",
+        "Unity.InputSystem",
+        "MRTK.Core",
+        "MRTK.UXCore",
+        "DaVinciEye.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

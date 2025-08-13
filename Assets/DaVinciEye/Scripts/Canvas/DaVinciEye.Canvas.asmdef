@@ -1,0 +1,21 @@
+{
+    "name": "DaVinciEye.Canvas",
+    "rootNamespace": "DaVinciEye.Canvas",
+    "references": [
+        "Unity.XR.Management",
+        "Unity.XR.ARFoundation",
+        "Unity.InputSystem",
+        "MRTK.Core",
+        "MRTK.SpatialManipulation",
+        "MRTK.UXCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
